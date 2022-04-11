@@ -1,0 +1,25 @@
+.Button {
+  display: block;
+  margin: 5px auto;
+  background: #294158;
+  border: 1px solid #294158;
+  outline: none;
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 8px 15px;
+}
+
+.Button:hover,
+.Button:active,
+.Button:focus {
+  background: #445d77;
+  border: 1px solid #425b75;
+}
+
+.Button:disabled {
+  background-color: rgb(184, 182, 182);
+  border: 1px solid rgb(184, 182, 182);
+  cursor: not-allowed;
+}

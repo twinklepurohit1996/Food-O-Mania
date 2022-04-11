@@ -1,0 +1,28 @@
+.RecipeList {
+  display: flex;
+  flex-direction: column;
+  color: rgb(247, 245, 245);
+  font: inherit;
+}
+
+.RecipeList input {
+  width: 60%;
+  max-width: 350px;
+}
+
+.Image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+
+.List {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}

@@ -1,0 +1,100 @@
+.FullPage {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(245, 245, 245);
+  padding-top: 30px;
+}
+
+.AddPost {
+  margin: auto;
+  width: 85%;
+  max-width: 400px;
+  border: 1px solid rgb(221, 221, 221);
+  box-shadow: 2px 3px 2px rgb(226, 226, 226);
+  padding: 20px 0;
+  color: rgb(78, 77, 77);
+  background-color: white;
+}
+
+.AddPost h2 {
+  margin: 0 auto 10px;
+}
+
+.AddPost form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+.AddPost input {
+  height: 35px;
+  font-size: 0.9rem;
+  width: 100%;
+}
+
+.AddPost textarea {
+  margin: 15px 0;
+  border: 1px solid #cccccc;
+  font: inherit;
+  padding: 6px 20px 6px;
+  font-size: 0.9rem;
+}
+
+.AddPost textarea:focus {
+  outline: none !important;
+  border: 2px solid rgb(139, 139, 139);
+  border-radius: 4px;
+}
+
+.AddPost button {
+  margin: 10px auto;
+  font-size: 0.9rem;
+  padding: 5px 12px;
+}
+
+.inputFile::-webkit-file-upload-button {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 0.9rem;
+  background-color: white;
+  border: 1.5px solid rgb(87, 87, 87);
+  color: black;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 8px;
+  border-radius: 2px;
+  outline: none;
+}
+
+.inputFile::file-selector-button {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 0.9rem;
+  background-color: white;
+  border: 1.5px solid rgb(87, 87, 87);
+  color: black;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 8px;
+  border-radius: 2px;
+  outline: none;
+}
+
+.inputFile::-webkit-file-upload-button:hover {
+  background-color: rgb(231, 231, 231);
+  border: 1.5px solid rgb(107, 107, 107);
+}
+
+.inputFile::file-selector-button:hover {
+  background-color: rgb(231, 231, 231);
+  border: 1.5px solid rgb(107, 107, 107);
+}
+
+@media (max-width: 550px) {
+  .AddPost form {
+    width: 85%;
+  }
+}

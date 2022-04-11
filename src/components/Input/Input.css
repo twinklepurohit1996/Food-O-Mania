@@ -1,0 +1,21 @@
+.Input {
+  margin: 5px auto;
+  height: 40px;
+  outline: none;
+  border: 1px solid #cccccc;
+  background-color: white;
+  font: inherit;
+  padding: 6px 20px 6px;
+  box-sizing: border-box;
+  transition: all 300ms ease-in-out;
+}
+
+.Input:focus {
+  border: 2px solid rgb(139, 139, 139);
+  border-radius: 4px;
+}
+
+.Error {
+  background-color: rgb(255, 230, 226);
+  border: 1px solid rgb(248, 129, 110);
+}

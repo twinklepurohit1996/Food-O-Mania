@@ -1,0 +1,16 @@
+.Menu {
+  height: 40%;
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.Menu div {
+  height: 4.5px;
+  width: 65%;
+  background-color: rgb(78, 77, 77);
+  border-radius: 1px;
+}

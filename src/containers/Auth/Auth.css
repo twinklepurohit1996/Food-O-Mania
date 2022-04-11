@@ -1,0 +1,48 @@
+.FullPage {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(245, 245, 245);
+  padding-top: 30px;
+}
+
+.Auth {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(221, 221, 221);
+  box-shadow: 2px 3px 2px rgb(226, 226, 226);
+  max-width: 300px;
+  margin: auto;
+  padding: 20px 0;
+  background-color: white;
+}
+
+.Auth h2 {
+  color: rgb(83, 83, 83);
+}
+
+.Auth form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Auth input {
+  height: 30px;
+  font-size: 0.9rem;
+  width: 85%;
+}
+
+.Auth button {
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  margin: 8px auto;
+}
+
+.Auth p {
+  font-size: 0.8rem;
+}
+
+.error {
+  color: red;
+  font-weight: 600;
+  margin: 0;
+}

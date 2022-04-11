@@ -1,0 +1,28 @@
+.FoodCard {
+  border: 1px solid white;
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  padding: 10px 5px 15px;
+  background-color: white;
+  color: rgb(92, 88, 88);
+}
+
+.FoodCard img {
+  height: 60%;
+  width: 95%;
+}
+
+.FoodCard p {
+  font: inherit;
+  margin: 8px;
+}
+
+.FoodCard a {
+  text-decoration: none;
+  color: rgb(247, 55, 55);
+}
+
+.FoodCard a:hover {
+  color: salmon;
+}

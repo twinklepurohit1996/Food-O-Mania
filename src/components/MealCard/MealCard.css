@@ -1,0 +1,102 @@
+.MealCard {
+  margin: 20px auto;
+  padding: 0px 20px 10px 20px;
+  width: 90%;
+  max-width: 700px;
+  border: 1px solid rgb(221, 221, 221);
+  box-shadow: 2px 3px 2px rgb(226, 226, 226);
+  color: rgb(78, 77, 77);
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0px 10px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(87, 126, 114);
+}
+
+.diet {
+  display: flex;
+  flex-direction: column;
+}
+
+.deleteButton {
+  display: flex;
+  align-items: flex-end;
+  background-color: white;
+  border: 1px solid white;
+  outline: none;
+  padding: 10px;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 500;
+  border-radius: 5px;
+  color: rgb(250, 91, 91);
+}
+
+.deleteButton:hover,
+.deleteButton:active {
+  background-color: rgb(253, 239, 239);
+}
+
+.meal {
+  width: 100%;
+  margin: 0 0 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.meal img {
+  width: 25%;
+  min-width: 120px;
+  border-radius: 4px;
+  margin-right: 70px;
+  box-sizing: border-box;
+}
+
+.mealInfo {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  color: rgb(110, 110, 110);
+  font-size: 15px;
+  text-align: left;
+}
+
+.mealInfo p {
+  margin: 0;
+}
+
+.mealInfo a {
+  text-decoration: none;
+  color: rgb(250, 91, 91);
+  margin: 0;
+}
+
+.mealInfo a:hover {
+  color: rgb(250, 153, 142);
+}
+
+@media (max-width: 550px) {
+  .title {
+    font-size: 16.5px;
+  }
+  .MealCard {
+    padding: 0px 10px 10px 10px;
+  }
+  .meal img {
+    margin-right: 15px;
+  }
+  .mealInfo {
+    font-size: 13px;
+  }
+}

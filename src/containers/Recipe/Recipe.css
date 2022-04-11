@@ -1,0 +1,66 @@
+.Recipe {
+  margin: 100px auto;
+  color: rgb(78, 77, 77);
+}
+
+.error {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: rgb(255, 74, 74);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  margin: 40px auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header img {
+  border-radius: 5px;
+  min-width: 240px;
+  height: auto;
+}
+
+.ings {
+  margin: 15px 30px;
+  border: 1px solid grey;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: rgb(245, 243, 243);
+  max-width: 450px;
+  min-width: 260px;
+}
+
+.ings p {
+  font-weight: 600;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.ings ul {
+  text-align: left;
+}
+
+.instructions {
+  width: 90%;
+}
+
+.instructions p {
+  font-weight: 600;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.instructions ol {
+  text-align: left;
+}
+
+@media (max-width: 950px) {
+  .ings {
+    margin: 30px;
+  }
+}

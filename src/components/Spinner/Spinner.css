@@ -1,0 +1,44 @@
+.Loader {
+  height: 150px;
+  width: 150px;
+  margin: 50px auto;
+}
+
+.Loader circle {
+  fill: none;
+  stroke-width: 10;
+  stroke-linecap: round;
+  animation: spin 4s ease-out 0s infinite;
+  transform-origin: center center;
+}
+
+.Loader circle:nth-child(1) {
+  stroke: #ffc114;
+  stroke-dasharray: 50;
+  animation-delay: 800ms;
+}
+
+.Loader circle:nth-child(2) {
+  stroke: #19cdca;
+  stroke-dasharray: 120;
+  animation-delay: 600ms;
+}
+
+.Loader circle:nth-child(3) {
+  stroke: #ff5248;
+  stroke-dasharray: 180;
+  animation-delay: 400ms;
+}
+
+.Loader circle:nth-child(4) {
+  stroke: #4e80e1;
+  stroke-dasharray: 320;
+  stroke-dashoffset: -100;
+  animation-delay: 200ms;
+}
+
+@keyframes spin {
+  50% {
+    transform: rotate(360deg);
+  }
+}
